@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Food</title>
+	<link rel="stylesheet" href="public/styles.css">
+	<link rel="stylesheet" href="public/main.css">
+</head>
+<body>
+<nav class="bg-white">
+	<div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+		<div class="relative flex items-center justify-between h-16">
+			<div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+				<!-- Mobile menu button-->
+				<button type="button"
+				        class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+				        aria-controls="mobile-menu" aria-expanded="false">
+					<span class="sr-only">Open main menu</span>
+					<!--
+					  Icon when menu is closed.
+		  
+					  Heroicon name: outline/menu
+		  
+					  Menu open: "hidden", Menu closed: "block"
+					-->
+					<svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+					     stroke="currentColor" aria-hidden="true">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+						      d="M4 6h16M4 12h16M4 18h16"/>
+					</svg>
+					<!--
+					  Icon when menu is open.
+		  
+					  Heroicon name: outline/x
+		  
+					  Menu open: "block", Menu closed: "hidden"
+					-->
+					<svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+					     stroke="currentColor" aria-hidden="true">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+					</svg>
+				</button>
+			</div>
+			<div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+				<div class="flex-shrink-0 flex items-center text-gray-600">
+					<b>UI.Desk</b>
+				</div>
+				<div class="hidden sm:block sm:ml-6">
+					<div class="flex space-x-4">
+						<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+						<a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
+						   aria-current="page">Home</a>
+						
+						<a href="#"
+						   class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+						
+						<a href="#"
+						   class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+						
+						<a href="#"
+						   class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Testimonials</a>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+	
+	<!-- Mobile menu, show/hide based on menu state. -->
+	<div class="sm:hidden" id="mobile-menu">
+		<div class="px-2 pt-2 pb-3 space-y-1">
+			<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+			<a href="#" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+			   aria-current="page">Dashboard</a>
+			
+			<a href="#"
+			   class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Team</a>
+			
+			<a href="#"
+			   class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Projects</a>
+			
+			<a href="#"
+			   class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Calendar</a>
+		</div>
+	</div>
+</nav>
+<div class="container mx-auto">
+	<div class="flex md:flex-row sm:flex-col text-center gap-12 justify-between">
+		<div>
+			<h1 class="text-6xl "> Just <span class="text-green-700">  Eat healthy</span> <br> food to live a healthier
+				life</h1>
+			<p class="text-black">Enjoy a healthy life by eating healthy foods that have extraordinary flavors that make
+				your life healthier for today and in the future</p>
+			<button class="bg-green-400 p-2 rounded-full w-32 m-auto hover:bg-green-700 mt-4 "> Order Now</button>
+		</div>
+		<div><img src="img/header Image.png" alt="" class="h-full"></div>
+	</div>
+	
+	<section class="section1">
+		<h1 class="text-6xl  text-center mb-6"> Why Choose US?</h1>
+		<p class="text-center text-gray-600">Organic food is grown without the use of synthetic chemicals</p>
+		<div class="flex md:flex-row sm:flex-col text-center gap-12 justify-around my-8">
+			<div class=" w-48 ">
+				<img src="img/Icon.svg" alt="" srcset="" class="mx-auto h-16">
+				<h1><b> Easy to order </b></h1>
+				<p class="text-xs">foods include fresh produce, meats as well as processed </p>
+			</div>
+			<div class=" w-48 ">
+				<img src="img/Icon.png" alt="" srcset="" class="mx-auto h-16">
+				<h1><b>Live Order</b></h1>
+				<p class="text-xs">Place your online Order easily and get the food instantly </p>
+			</div>
+			<div class=" w-48 ">
+				<img src="img/leaf 1.svg" alt="" srcset="" class="mx-auto h-16">
+				<h1><b>100% Organic </b></h1>
+				<p class="text-xs">Organic food is grown without the use of synthetic chemicals </p>
+			</div>
+		</div>
+		
+		<div class="flex md:flex-row sm:flex-col text-center gap-xs justify-around my-8 mx-16 ">
+			<div>
+				<h1 class="text-4xl p-6 text-gray-700"><b> 40+ </b></h1>
+				<p class="text-gray-500">Food Partners</p>
+			</div>
+			<div>
+				<h1 class="text-4xl p-6 text-gray-700"><b> 459+ </b></h1>
+				<p class="text-gray-500">Trusted Clients</p>
+			</div>
+			<div>
+				<h1 class="text-4xl p-6 text-gray-700"><b> 15k+ </b></h1>
+				<p class="text-gray-500">Order Online</p>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section class="section2">
+		<div class="flex md:flex-row sm:flex-col text-center gap-12 justify-between">
+			<div class="flex-1">
+				<h1>About Us</h1>
+				<p>Organic food is grown without the use of synthetic chemicals, such as human-made pesticides and
+					fertilizers, and does not contain genetically modified organisms (GMOs). Organic foods include fresh
+					produce, meats, and dairy products as well as processed foods such as crackers, drinks, and frozen
+					meals.</p>
+				<button type="button" class="hover:bg-gray-500">Learn More</button>
+			</div>
+			<div class="flex-1">
+				<img src="img/Image.png" alt="" srcset="" class="sm:h-72 md:h-full">
+			</div>
+		</div>
+		
+		<div class="flex md:flex-row-reverse sm:flex-col text-center gap-12 justify-between my-12">
+			<div class="flex-1 ">
+				<h1>Fresh Vegetables
+					Every Day</h1>
+				<p>Healthy life as informed declared we enjoy the margaret. Joy horrible moreover man feelings own shy.
+					Request norland neither mistake for yet. Between the for morning assured country believe.</p>
+				<button type="button" class="hover:bg-gray-500">Learn More</button>
+			</div>
+			<div class="flex-1">
+				<img src="img/Group 4114.png" alt="" srcset="" class="sm:h-72 md:h-72 second2">
+			</div>
+		</div>
+		
+		
+		<div class="flex md:flex-row sm:flex-col text-center gap-12 justify-between">
+			<div class="flex-1 ">
+				<h1>Cooked by the
+					Best Chefs</h1>
+				<p>Believing neglected so so allowance existence departure in. In design active temper be uneasy. Thirty
+					for remove plenty regard you summer though. He preference connection astonished on of ye.</p>
+				<button type="button" class="hover:bg-gray-500">Learn More</button>
+			</div>
+			<div class="flex-1">
+				<img src="img/Image & bg elements.png" alt="" srcset="" class="sm:h-72 md:h-72 second3">
+			</div>
+		</div>
+	</section>
+
+  <section class="section3" >
+    <h1 class="text-6xl  text-center mb-6"> Special Dishes for you</h1>
+		<p class="text-center text-gray-600">Made with premium & 100% Organic ingredients</p>
+
+    <div class="flex md:flex-row sm:flex-col text-center gap-12 justify-around my-8">
+			<div class=" w-72 border-solid border-2 border-light-blue-500 shadow-2xl p-6 ">
+				<img src="img/image (1).png" alt="" srcset="" class="mx-auto h-18">
+				<h1 class="my-6"><b> Easy to order </b></h1>
+				<p class="text-xs">foods include fresh produce, meats as well as processed </p>
+			</div>
+			<div class=" w-72 border-solid border-2 border-light-blue-500 shadow-2xl p-6 ">
+				<img src="img/image (2).png" alt="" srcset="" class="mx-auto h-18">
+				<h1 class="my-6"><b>Live Order</b></h1>
+				<p class="text-xs">Place your online Order easily and get the food instantly </p>
+			</div>
+			<div class=" w-72 border-solid border-2 border-light-blue-500 shadow-2xl p-6">
+				<img src="img/image (3).png" alt="" srcset="" class="mx-auto h-18">
+				<h1 class="my-6"><b>100% Organic </b></h1>
+				<p class="text-xs">Organic food is grown without the use of synthetic chemicals </p>
+			</div>
+		</div>
+    <button type="submit" class="" >View All</button>
+  </section>
+
+  <section class="section4 my-12">
+    <h1 class="text-center text-5xl">Happy Clients Says </h1>
+    <div class="flex md:flex-row sm:flex-col text-center justify-center gap-4 my-8">
+			<div class=" w-72 border-solid border-2 border-light-blue-500 shadow-2xl p-6 ">
+        <div><h1>KHALIL NAZIR</h1><br>
+          <span>CEO of UI.Desk</span><img src="img/avatar.png" alt="" srcset=""> </div> 
+        <div><p>  Thirty for remove plenty regard you summer though. He preference Partiality on or continuing in particular principles as. Do believing oh disposing to supported allowance we.</p></div>
+			</div>
+    
+			<div class=" w-72 border-solid border-2 border-light-blue-500 shadow-2xl p-6 ">
+        <div><h1>ZEESHAN ANWER</h1><br>
+          <span>CEO of UI Box</span><img src="img/avatar (1).png" alt="" srcset=""> </div> 
+        <div><p> Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly. </p> 
+        </div>
+			</div>
+		</div>
+  </section>
+
+
+  <section class="last_section text-center ">
+      <h1 class="text-4xl text-center">Subscribe to the Newsletter</h1> 
+      <p class="">Enter your email below to get our daily offers and news</p>
+      <div class="flex-column">    
+      <input type="email" name="email" placeholder="Enter your email" class="border-solid border-2">
+      <button class="bg-green-400 p-2 rounded-full w-32 m-auto hover:bg-green-700 mt-4 "> Order Now</button>
+    
+    </div>
+  
+    
+  </section>
+
+
+ 
+</div>
+<footer class=" footer">
+	<div class="flex md:flex-row sm:flex-col text-center justify-center gap-4 my-8">
+	  <div class="flex-1">
+		  <h1><b>UI.desk	</b> </h1>
+		  <p>On formed merits hunted unable merely by mr whence or. </p>
+	  </div>
+	  <div class="flex-1">
+		  <ul>
+			  <li><a href="#"><b>	Home</b> 	</a></li>
+			  <li><a href="#">Company	</a></li>
+			  <li><a href="#">News	</a></li>
+			  <li><a href="#">Team	</a></li>
+		  </ul>
+	  </div>
+	  <div class="flex-1">
+		  <ul>
+			  <li><a href="#"><b>About	</b> 	</a></li>
+			  <li><a href="#">History	</a></li>
+			  <li><a href="#">Service	</a></li>
+			  <li><a href="#">Pricing	</a></li>
+		  </ul>
+	  </div>
+	  <div class="flex-1">
+		  <ul>
+			  <li><a href="#"><b>Partner	</b> 	</a></li>
+			  <li><a href="#">Business	</a></li>
+			  <li><a href="#">Plan</a></li>
+			  <li><a href="#">Marketing	</a></li>
+		  </ul>
+	  </div>
+	  <div class="flex-1">
+		  <ul>
+			  <li><a href="#"><b>Contact	</b> 	</a></li>
+			  <li><a href="#">UI.desk	</a></li>
+			  <li><a href="#">(465)954-8487</a></li>
+			  <li><a href="#">Lahore, Pakistan	</a></li>
+		  </ul>
+
+		  
+	  </div>
+	</div>
+	<div class="last_div"><p>© Copyright 2020 by ui.desk. All right reserved.</p></div>
+</footer>
+</body>
+</html>
